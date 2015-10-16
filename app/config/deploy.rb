@@ -1,6 +1,6 @@
 set :application, "betacap"
 set :domain,      "45.63.52.40"
-set :deploy_to,   "/var/www/deploybetacap"
+set :deploy_to,   "/home/admin/web/deploybetacap"
 set :user,        "root"
 set :use_sudo,    false
 set :app_path,    "app"
