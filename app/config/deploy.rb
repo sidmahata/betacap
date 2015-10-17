@@ -33,5 +33,14 @@ end
 
 after "deploy:setup", "upload_parameters"
 
+task :change_permissions do
+
+  try_sudo "chmod -R 777 app/logs"
+  try_sudo "chmod -R 777 app/cache"
+
+end
+
+after "deploy", "change_permissions"
+
 # Be more verbose by uncommenting the following line
 # logger.level = Logger::MAX_LEVEL
