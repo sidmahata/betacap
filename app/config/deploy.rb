@@ -35,8 +35,8 @@ after "deploy:setup", "upload_parameters"
 
 task :change_permissions do
 
-  try_sudo "chmod -R 777 app/logs"
-  try_sudo "chmod -R 777 app/cache"
+  try_sudo "chmod -R 777 /home/admin/web/deploybetacap/current/app/logs"
+  try_sudo "chmod -R 777 /home/admin/web/deploybetacap/current/app/cache"
 
 end
 
