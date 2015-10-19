@@ -1,5 +1,5 @@
 acme_test_homepage:
-    path:     /hello/{name}
+    path:     /welcome/{name}
     defaults: { _controller: AcmeTestBundle:Default:index }
 
 acme_test2:
