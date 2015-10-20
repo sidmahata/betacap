@@ -1,3 +1,7 @@
+acme_test_post:
+    resource: "@AcmeTestBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
 acme_test_homepage:
     path:     /welcome/{name}
     defaults: { _controller: AcmeTestBundle:Default:index }
