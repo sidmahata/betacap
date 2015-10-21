@@ -5,3 +5,7 @@ acme_test:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+aimeos_shop:
+    resource: "@AimeosShopBundle/Resources/config/routing.yml"
+    prefix: /

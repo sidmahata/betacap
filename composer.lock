@@ -4,9 +4,424 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ba95f0ab399d3e508e17211818d81783",
-    "content-hash": "8482b87777cbfd7440006a02264e967b",
+    "hash": "0c76497b199f27b3f9df70bde7e2ee5e",
+    "content-hash": "0fc48b30d3e084876e66f14550dcfe7a",
     "packages": [
+        {
+            "name": "aimeos/ai-monolog",
+            "version": "2015.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-monolog.git",
+                "reference": "d12438bf9bcf2c66b3937399514daeb9c694a1c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-monolog/zipball/d12438bf9bcf2c66b3937399514daeb9c694a1c5",
+                "reference": "d12438bf9bcf2c66b3937399514daeb9c694a1c5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "monolog/monolog": "~1.0",
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-0": {
+                    "MW": "lib/custom/src"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Monolog adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "e-commerce",
+                "log",
+                "monolog",
+                "shop"
+            ],
+            "time": "2015-10-20 13:58:55"
+        },
+        {
+            "name": "aimeos/ai-swiftmailer",
+            "version": "2015.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-swiftmailer.git",
+                "reference": "3e1078fab951476d881af09469fa06ff494ce3b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-swiftmailer/zipball/3e1078fab951476d881af09469fa06ff494ce3b0",
+                "reference": "3e1078fab951476d881af09469fa06ff494ce3b0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "swiftmailer/swiftmailer": ">=4.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-0": {
+                    "MW": "lib/custom/src"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "SwiftMailer adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "e-commerce",
+                "mail",
+                "shop",
+                "swiftmailer"
+            ],
+            "time": "2015-10-20 13:58:55"
+        },
+        {
+            "name": "aimeos/ai-symfony2",
+            "version": "2015.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-symfony2.git",
+                "reference": "8c48ea09db356c816a544cc5355727ff997d40b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-symfony2/zipball/8c48ea09db356c816a544cc5355727ff997d40b9",
+                "reference": "8c48ea09db356c816a544cc5355727ff997d40b9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.2",
+                "symfony/symfony": "2.*"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-0": {
+                    "MW": "lib/custom/src"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Symfony 2 adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org/Symfony",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "e-commerce",
+                "shop",
+                "symfony"
+            ],
+            "time": "2015-10-20 13:58:55"
+        },
+        {
+            "name": "aimeos/ai-zend2-i18n",
+            "version": "2015.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-zend2-i18n.git",
+                "reference": "aa35c9192472ca758705b6bc351c2a6209a0e91f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-zend2-i18n/zipball/aa35c9192472ca758705b6bc351c2a6209a0e91f",
+                "reference": "aa35c9192472ca758705b6bc351c2a6209a0e91f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.2",
+                "zendframework/zend-i18n": "2.3.*",
+                "zendframework/zend-servicemanager": "2.3.*"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-0": {
+                    "MW": "lib/custom/src"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Zend Framework 2 adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "e-commerce",
+                "i18n",
+                "shop",
+                "translate",
+                "zend"
+            ],
+            "time": "2015-10-20 13:58:55"
+        },
+        {
+            "name": "aimeos/aimeos-core",
+            "version": "2015.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/aimeos-core.git",
+                "reference": "180f63da7512ca665b40bc50bedb869a8007036c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/180f63da7512ca665b40bc50bedb869a8007036c",
+                "reference": "180f63da7512ca665b40bc50bedb869a8007036c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "ext-pdo": "*",
+                "ext-pdo_mysql": "*",
+                "ext-zip": "*",
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phing/phing": "2.4.*",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "suggest": {
+                "phpdocumentor/phpdocumentor": "Required for generating the API documentation"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MShop": "lib/mshoplib/src",
+                    "MAdmin": "lib/mshoplib/src",
+                    "MW": "lib/mwlib/src",
+                    "Client_Html": "client/html/src",
+                    "Controller_Common": "controller/common/src",
+                    "Controller_Frontend": "controller/frontend/src",
+                    "Controller_ExtJS": "controller/extjs/src",
+                    "Controller_Jobs": "controller/jobs/src",
+                    "": [
+                        "lib/mwlib/lib",
+                        "."
+                    ]
+                },
+                "classmap": [
+                    "lib/mshoplib/src",
+                    "lib/mwlib/lib",
+                    "lib/mwlib/src",
+                    "client/html/src",
+                    "controller/common/src",
+                    "controller/frontend/src",
+                    "controller/extjs/src",
+                    "controller/jobs/src",
+                    "Arcavias.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Full-featured e-commerce framework for high performance web shops",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "e-commerce",
+                "market place",
+                "portal",
+                "shop"
+            ],
+            "time": "2015-10-12 16:40:15"
+        },
+        {
+            "name": "aimeos/aimeos-symfony2",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/aimeos-symfony2.git",
+                "reference": "26b3674d9ec456c61153696ebdf308bf7b1b527f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/aimeos-symfony2/zipball/26b3674d9ec456c61153696ebdf308bf7b1b527f",
+                "reference": "26b3674d9ec456c61153696ebdf308bf7b1b527f",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-monolog": "2015.10.*",
+                "aimeos/ai-swiftmailer": "2015.10.*",
+                "aimeos/ai-symfony2": "2015.10.*",
+                "aimeos/ai-zend2-i18n": "2015.10.*",
+                "aimeos/aimeos-core": "2015.10.*",
+                "php": ">=5.3.3",
+                "symfony/symfony": "~2.4"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.2",
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "friendsofsymfony/user-bundle": "~1.3",
+                "satooshi/php-coveralls": "dev-master",
+                "sensio/framework-extra-bundle": "~2.3",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.3",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/twig-bundle": "~2.1",
+                "twig/extensions": "~1.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\ShopBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Full-featured Symfony web shop bundle and e-commerce solution for high performance shops",
+            "homepage": "https://aimeos.org/Symfony",
+            "keywords": [
+                "aimeos",
+                "e-commerce",
+                "ecommerce",
+                "market place",
+                "portal",
+                "shop",
+                "symfony"
+            ],
+            "time": "2015-10-03 10:15:18"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2015-02-18 17:17:01"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.7",
@@ -1691,13 +2106,182 @@
                 "templating"
             ],
             "time": "2015-10-13 07:07:02"
+        },
+        {
+            "name": "zendframework/zend-i18n",
+            "version": "2.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-i18n.git",
+                "reference": "16ac83782c8e68b340e2b562d45b811e63bc9524"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-i18n/zipball/16ac83782c8e68b340e2b562d45b811e63bc9524",
+                "reference": "16ac83782c8e68b340e2b562d45b811e63bc9524",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-stdlib": "self.version"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "zendframework/zend-cache": "self.version",
+                "zendframework/zend-config": "self.version",
+                "zendframework/zend-eventmanager": "self.version",
+                "zendframework/zend-filter": "self.version",
+                "zendframework/zend-servicemanager": "self.version",
+                "zendframework/zend-validator": "self.version",
+                "zendframework/zend-view": "self.version"
+            },
+            "suggest": {
+                "ext-intl": "Required for most features of Zend\\I18n; included in default builds of PHP",
+                "zendframework/zend-cache": "Zend\\Cache component",
+                "zendframework/zend-config": "Zend\\Config component",
+                "zendframework/zend-eventmanager": "You should install this package to use the events in the translator",
+                "zendframework/zend-filter": "You should install this package to use the provided filters",
+                "zendframework/zend-resources": "Translation resources",
+                "zendframework/zend-servicemanager": "Zend\\ServiceManager component",
+                "zendframework/zend-validator": "You should install this package to use the provided validators",
+                "zendframework/zend-view": "You should install this package to use the provided view helpers"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\I18n\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "https://github.com/zendframework/zend-i18n",
+            "keywords": [
+                "i18n",
+                "zf2"
+            ],
+            "time": "2015-02-10 14:55:30"
+        },
+        {
+            "name": "zendframework/zend-servicemanager",
+            "version": "2.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-servicemanager.git",
+                "reference": "cdcbb5329c918f3ac6f00d46910ffcb6b1f3f6bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/cdcbb5329c918f3ac6f00d46910ffcb6b1f3f6bc",
+                "reference": "cdcbb5329c918f3ac6f00d46910ffcb6b1f3f6bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "zendframework/zend-di": "self.version"
+            },
+            "suggest": {
+                "ocramius/proxy-manager": "ProxyManager 0.5.* to handle lazy initialization of services",
+                "zendframework/zend-di": "Zend\\Di component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\ServiceManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "https://github.com/zendframework/zend-service-manager",
+            "keywords": [
+                "servicemanager",
+                "zf2"
+            ],
+            "time": "2015-01-13 22:22:54"
+        },
+        {
+            "name": "zendframework/zend-stdlib",
+            "version": "2.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-stdlib.git",
+                "reference": "2acb22aaf926f5a1934c6622d596f0b14872c3cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/2acb22aaf926f5a1934c6622d596f0b14872c3cd",
+                "reference": "2acb22aaf926f5a1934c6622d596f0b14872c3cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "zendframework/zend-eventmanager": "self.version",
+                "zendframework/zend-filter": "self.version",
+                "zendframework/zend-serializer": "self.version",
+                "zendframework/zend-servicemanager": "self.version"
+            },
+            "suggest": {
+                "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
+                "zendframework/zend-filter": "To support naming strategy hydrator usage",
+                "zendframework/zend-serializer": "Zend\\Serializer component",
+                "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Stdlib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "https://github.com/zendframework/zend-stdlib",
+            "keywords": [
+                "stdlib",
+                "zf2"
+            ],
+            "time": "2015-02-10 14:55:30"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.9"

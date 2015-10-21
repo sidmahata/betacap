@@ -6,6 +6,8 @@
     "autoload": {
         "psr-4": { "": "src/" }
     },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.7.*",
@@ -17,7 +19,8 @@
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "aimeos/aimeos-symfony2": "~1.2"
     },
     "require-dev": {
 
@@ -29,7 +32,9 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Aimeos\\ShopBundle\\Composer\\ScriptHandler::installBundle",
+            "Aimeos\\ShopBundle\\Composer\\ScriptHandler::setupDatabase"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -37,7 +42,9 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Aimeos\\ShopBundle\\Composer\\ScriptHandler::installBundle",
+            "Aimeos\\ShopBundle\\Composer\\ScriptHandler::setupDatabase"
         ]
     },
     "config": {
